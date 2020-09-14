@@ -1,0 +1,601 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+* {
+	box-sizing: border-box;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+/*set overall body font */
+
+body {
+	font-family: Montserrat, lato;
+}
+
+/* define content wrapper */
+.wrapper {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+/*set a background image for header */
+.hero_image {
+	background: transparent url("../image/hero_image.png");
+	background-size: cover;
+	top: 0px;
+	height: 657px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-origin: padding-box;
+	opacity: 1;
+}
+
+header {
+	top: 20px;
+	width: 100%;
+	height: 96px;
+	opacity: 1;
+}
+
+#logo {
+	display: inline-block;
+	position: relative;
+	top: 20px;
+	left: 68px;
+	width: 124px;
+	height: 96px;
+	opacity: 1;
+}
+
+img {
+	object-fit: cover;
+}
+
+.left-header {
+	position: relative;
+	display: inline-block;
+	float: right;
+	width: 719px;
+	height: 301px;
+	padding: 10px;
+	/*border:3px solid red;*/
+
+}
+
+.navigation-bar {
+	padding-top: 55px;
+	margin: 0px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	list-style-type: none;
+	overflow: hidden;
+	/*border: 3px solid black;*/
+	width: 400px;
+}
+
+li {
+	display: inline-block;
+	list-style-type: none;
+	padding-left: 27px;
+	padding-right: 27px;
+	height: 68px;
+
+}
+
+li a {
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	font-family: Montserrat;
+	font-size: 22px;
+	opacity: 1;
+}
+
+#hello-button {
+	float: right;
+	margin-top: -83px;
+	margin-right: 83px;
+	margin-left: 23px;
+	width: 199px;
+	height: 54px;
+	background-color: #FFFFFF;
+	border: 2px solid #FFFFFF;
+	border-radius: 34px;
+	text-align: center;
+	text-decoration: none;
+	color: #3693D6;
+	font-family: montserrat;
+	font-size: 22px;
+	opacity: 1;
+}
+
+/* styling for Our Work button */
+#work-button {
+	float: right;
+	margin-top: 370px;
+	margin-right: 68px;
+	width: 235px;
+	height: 68px;
+	background-color: #3693D6;
+	border: 2px solid #3693D6;
+	border-radius: 34px;
+	text-align: center;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-family: montserrat;
+	font-size: 25px;
+	opacity: 1;
+}
+
+/* styling for About me box */
+.about-me {
+	top: 657px;
+	left: 0px;
+	width: 100%;
+	height: 563px;
+	background: #3693D6 0% 0% no-repeat padding-box;
+	background-attachment: fixed;
+	opacity: 1;
+}
+
+h1 {
+	text-align: center;
+	font-family: montserrat;
+	font-size: 52px;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+	padding-top: 100px;
+}
+
+.about-content {
+	position: relative;
+	top: 48px;
+	bottom: 120px;
+	width: 1268px;
+	height: 232px;
+	padding-left: 8px;
+	font-family: montserrat;
+	font-size: 42px;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+p {
+	text-align: center;
+}
+
+/* style for our work */
+.our-work {
+	margin-bottom: 100px;
+	/* UI property */
+	text-align: center;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+#work-head {
+	position: relative;
+	top: 100px;
+	left: 500px;
+	width: 260px;
+	height: 63px;
+}
+
+h2 {
+	text-align: center;
+	font: normal normal 600 52px Montserrat;
+	color: #3693D6;
+	letter-spacing: 0px;
+	opacity: 1;
+}
+
+.gallery {
+	width: 100%;
+	vertical-align: middle;
+	margin: auto;
+	padding: 0.1rem;
+	background-color: #FFFFFF;
+}
+
+.gallery_img {
+	display: inline-block;
+	width: 418px;
+	height: 392px;
+	object-fit: cover;
+}
+
+.gallery_img2 {
+	display: inline-block;
+	width: 839px;
+	height: 391px;
+	object-fit: cover;
+}
+
+.user {
+	vertical-align: middle;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+#user-heding {
+	margin-top: 100px;
+
+	/* UI property */
+	text-align: center;
+	font: normal normal normal 600 52px Montserrat;
+	color: #3693D6;
+	opacity: 1;
+}
+
+#user-img {
+	display: block;
+	margin-top: 38px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 255px;
+	width: 265px;
+	height: 265px;
+	opacity: 1;
+}
+
+#user-name {
+	display: block;
+	margin-top: 20px;
+	text-align: center;
+	font: normal normal normal 42px Montserrat;
+	letter-spacing: 0px;
+	line-spacing: 52px;
+	color: #3696D6;
+	opacity: 1;
+}
+
+#user-info {
+	display: block;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font: normal normal normal 32px Montserrat;
+	letter-spacing: 0px;
+	line-spacing: 60px;
+	color: #3693D6;
+	opacity: 1;
+}
+
+.circle {
+	display: inline-block;
+	margin-top: 51px;
+	width: 26px;
+	height: 26px;
+	border-radius: 50%;
+	background: #E2E2E2 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+#ellips1 {
+	margin-left: 50%;
+	background: #9BC0FF 0% 0% no-repeat padding-box;
+}
+
+.card-container {
+	margin-top: 100px;
+	width: 100%;
+	height: 754px;
+	vertical-align: middle;
+
+	/* UI properties */
+	background: #3693D6 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.arrow {
+	margin-top: 361px;
+	width: 32px;
+	height: 32px;
+	border: solid #FFFFFF;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	opacity: 1;
+	padding: 2px;
+}
+
+.left {
+	margin-left: 30px;
+	margin-right: 20px;
+	transform: rotate(135deg);
+	-webkit-transform: rotate(135deg);
+}
+
+.right {
+	margin: auto;
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+}
+
+.card {
+	display: inline-block;
+	margin-right: 15px;
+	width: 255px;
+	height: 460px;
+	vertical-align: middle;
+	/*UI properties */
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	background-attachment: fixed;
+	box-shadow: 0px 3px 10px #00000029;
+	border-radius: 8px;
+	opacity: 1;
+}
+
+.icon {
+	margin: 50px 50px 50px 50px;
+	width: 175px;
+	height: 135px;
+	opacity: 1;
+
+}
+
+.card-title {
+	text-align: center;
+	font: normal normal bold 30px Lato;
+	letter-spacing: 0px;
+	color: #29313E;
+	opacity: 1;
+}
+
+.card-text {
+	display: block;
+	margin-top: 10px;
+	text-align: center;
+	font: normal normal normal 24px Lato;
+	letter-spacing: 0px;
+	opacity: 1;
+	vertical-align: middle;
+	color: #29313E;
+}
+
+span {
+	color: #0098DA;
+}
+
+.form {
+	margin-top: 100px;
+	margin-left: 34px;
+	width: 50%;
+}
+
+h3 {
+
+	width: 823px;
+	font: normal normal normal 40px/50px Montserrat;
+	color: #151D41;
+}
+
+.input-user {
+	display: block;
+	width: 200%;
+
+}
+
+.user_ip-left {
+	display: inline-block;
+	width: 45%;
+}
+
+.user_ip-right {
+	display: inline-block;
+	width: 53%;
+	float: right;
+	height: 390px;
+}
+
+.user_ip-left input[type=text],
+input[type=email],
+input[type=tel] {
+	width: 550px;
+	height: 55px;
+	margin-top: 50px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px Solid #151D41;
+	border-radius: 5px;
+	font: normal normal normal 18px/22px Montserrat;
+	color: #151D41;
+
+
+}
+
+.user_ip-left input[type=submit] {
+	width: 280px;
+	height: 65px;
+	background: #3693D6 0% 0% no-repeat padding-box;
+	border-radius: 40px;
+	font: normal normal normal 25px/30px Montserrat;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	margin-top: 86px;
+	margin-bottom: 95px;
+
+}
+
+.user_ip-right input[type=textarea] {
+
+	width: 530px;
+	height: 266px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px solid #151D41;
+	border-radius: 5px;
+	text-align: left;
+	font: normal normal normal 18px/22px Montserrat;
+	color: #151D41;
+	margin-top: 48px;
+
+}
+
+/* .form-section, .form-section1{
+}
+#msg{
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-left:0px;
+}
+input[type=text], input[type=email], input[type=tel]{
+	margin-left: 150px;
+	width: 550px;
+	height: 55px;
+	margin-top: 50px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px Solid #151D41;
+	border-radius: 5px;
+	font: normal normal normal 18px/22px Montserrat;
+	color: #151D41;
+	opacity: 1;
+}
+
+input[type=textarea]{
+	width: 200px;
+	height: 250px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px solid #151D41;
+	border-radius: 5px;
+	text-align: left;
+	font: normal normal normal 18px/22px Montserrat;
+	color: #151D41;
+	opacity: 1;
+}
+input[type=submit]{
+	width: 280px;
+	height: 65px;
+	background: #3693D6 0% 0% no-repeat padding-box;
+	border-radius: 40px;
+	font: normal normal normal 25px/30px Montserrat;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+} */
+footer {
+	width: 100%;
+	height: 300px;
+	background: #3693D6 0% 0% no-repeat padding-box;
+	opacity: 1;
+	vertical-align: middle;
+}
+
+.footer-logo {
+	display: inline-block;
+	margin-left: 30px;
+	margin-top: 0px;
+	width: 122px;
+	height: 58px;
+	background: transparent url('../image/footer-logo.png') 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.footer-containt {
+	margin-top: 0px;
+	display: inline-block;
+	position: relative;
+	padding-top: 70px;
+}
+
+.footer-containt1 {
+	display: inline-block;
+}
+
+h4 {
+	padding-left: 13px;
+	text-align: center;
+	font: normal normal 600 32px/39px Montserrat;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+	/*vertical-align: middle;*/
+}
+
+p#location {
+	margin-left: 30px;
+	width: 264px;
+	height: 87px;
+	text-align: left;
+	font: normal normal normal 22px/30px Montserrat;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+	float: bottom;
+}
+
+p#mail,
+p#tel {
+	margin-left: 30px;
+	text-align: left;
+	font: normal normal normal 22px/60px Montserrat;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+#mail {
+	width: 234px;
+	height: 51px;
+}
+
+#tel {
+	width: 151px;
+	height: 27px;
+}
+
+
+
+
+.ficon {
+	vertical-align: middle;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+}
+
+#fbicon {
+	margin-left: 45px;
+}
+
+#instaicon {
+	margin-left: 45px;
+}
+
+#ytubeicon {
+	margin-left: 45px;
+}
+
+.ficon a {
+	width: 50px;
+	height: 50px;
+}
+
+#fb {
+
+	background: transparent url('../image/fb_icon.png') 0% 0% no-repeat padding-box;
+	width: 20px;
+	height: 40px;
+
+}
+
+#insta {
+	background: transparent url('../image/insta_icon.png') 0% 0% no-repeat padding-box;
+	width: 55px;
+	height: 42px;
+
+}
+
+#youtube {
+
+	background: transparent url('../image/youtube_icon.png') 0% 0% no-repeat padding-box;
+	width: 55px;
+	height: 42px;
+
+}
