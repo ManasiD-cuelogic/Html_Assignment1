@@ -25,27 +25,22 @@ body {
 .hero_image{
 	background: transparent url("../image/hero_image.png");
 	background-size: cover;
-	top: 0px;
 	height: 657px;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
 	background-origin: padding-box;
-	opacity: 1;
+	
 }
+/*header styling */
 header {
 	top: 20px;
-	width: 100%;
-	height: 96px;
-	opacity: 1;
+	height: 136px;
+	
 }
 #logo {
-	display: inline-block;
-	position: relative;
-	top: 20px;
-	left: 68px;
+	margin-top: 20px;
 	width: 124px;
 	height: 96px;
-	opacity: 1;
+	
 }
 
 img {
@@ -53,26 +48,21 @@ img {
 }
 
 .left-header {
-	position: relative;
-	display: inline-block;
+	/*display: inline-block;*/
 	float: right;
 	width: 719px;
-	height: 301px;
+	height: 118px;
 	padding: 10px;
 	/*border:3px solid red;*/
 
 }
 
 .navigation-bar {
-	padding-top: 55px;
-	margin: 0px;
-	text-align: center;
+	padding-top: 35px;
 	display: inline-block;
 	vertical-align: top;
 	list-style-type: none;
-	overflow: hidden;
-	/*border: 3px solid black;*/
-	width: 400px;
+	width: 655px;
 }
 
 li {
@@ -92,15 +82,11 @@ li a {
 	color: #FFFFFF;
 	font-family: Montserrat;
 	font-size: 22px;
-	opacity: 1;
+	
 }
 
 #hello-button {
-	float: right;
-	margin-top: -83px;
-	margin-right: 83px;
-	margin-left: 23px;
-	width: 199px;
+	width: 204px;
 	height: 54px;
 	background-color: #FFFFFF;
 	border: 2px solid #FFFFFF;
@@ -110,16 +96,21 @@ li a {
 	color: #3693D6;
 	font-family: montserrat;
 	font-size: 22px;
-	opacity: 1;
+	padding: 14px 50px 14px 50px;
 }
 
 /* styling for Our Work button */
-#work-button {
+div.work{
 	float: right;
-	margin-top: 370px;
-	margin-right: 68px;
-	width: 235px;
+	margin-top: 400px;
+	margin-right: 60px;
+	margin-bottom: 81px;
+}
+#work-button {
+	width: 240px;
 	height: 68px;
+	padding: 19px 57px 19px 57px;
+	margin-top: 450px;
 	background-color: #3693D6;
 	border: 2px solid #3693D6;
 	border-radius: 34px;
@@ -128,19 +119,14 @@ li a {
 	color: #FFFFFF;
 	font-family: montserrat;
 	font-size: 25px;
-	opacity: 1;
+	 
 }
 
 /* styling for About me box */
-.about-me {
+section.about-me {
 	top: 657px;
-	left: 0px;
-	width: 100%;
 	height: 563px;
-	background: #3693D6 0% 0% no-repeat padding-box;
-	background-attachment: fixed;
-	background-size: cover;
-	opacity: 1;
+	background-color: #3693D6;
 }
 
 h1 {
@@ -149,22 +135,18 @@ h1 {
 	font-size: 52px;
 	letter-spacing: 0px;
 	color: #FFFFFF;
-	opacity: 1;
 	padding-top: 100px;
 }
 
 .about-content {
-	position: relative;
-	top: 48px;
-	bottom: 120px;
+	/*position: relative;*/
 	width: 1268px;
 	height: 232px;
-	padding-left: 8px;
+	padding: 48px 19px 120px 19px;
 	font-family: montserrat;
 	font-size: 42px;
-	letter-spacing: 0px;
 	color: #FFFFFF;
-	opacity: 1;
+	
 }
 
 p {
@@ -172,28 +154,30 @@ p {
 }
 
 /* style for our work */
-.our-work {
-	margin-bottom: 100px;
+section.our-work {
 	/* UI property */
 	text-align: center;
-	background: #FFFFFF 0% 0% no-repeat padding-box;
-	opacity: 1;
+	background-color: #FFFFFF;
+	
 }
 
-#work-head {
-	position: relative;
-	top: 100px;
-	left: 500px;
+h2#work-head {
+	margin-top: 100px;
+	margin-right:auto;
+	margin-left: auto;
+	margin-bottom: 100px;
 	width: 260px;
 	height: 63px;
 }
 
 h2 {
 	text-align: center;
-	font: normal normal 600 52px Montserrat;
+	font-weight: 600;
+	font-size: 52px;
+	font-family: Montserrat;
 	color: #3693D6;
 	letter-spacing: 0px;
-	opacity: 1;
+	
 }
 
 .gallery {
@@ -206,67 +190,59 @@ h2 {
 
 .gallery_img {
 	display: inline-block;
-	width: 443px;
-	height: 400px;
+	width: 418px;
+	height: 392px;
 	object-fit: cover;
 }
 
 .gallery_img2 {
 	display: inline-block;
-	width: 889px;
+	width: 838px;
 	height: 400px;
 	object-fit: cover;
 }
-
+section.user-info{
+	margin-top: 100px;
+	margin-bottom: 138px;
+}
 .user {
 	vertical-align: middle;
 	margin-left: 200px;
 	margin-right: 200px;
+	width: 812px;
+	height: 821px;
 }
 
 #user-heding {
-	margin-top: 100px;
-
-	/* UI property */
-	text-align: center;
-	font: normal normal normal 600 52px Montserrat;
-	color: #3693D6;
-	opacity: 1;
+	margin-bottom: 38px;
 }
 
 #user-img {
 	display: block;
-	margin-top: 38px;
+	margin-bottom: 34px;
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 255px;
 	width: 265px;
 	height: 265px;
-	opacity: 1;
+	
 }
 
 #user-name {
-	display: block;
-	margin-top: 20px;
 	text-align: center;
-	font: normal normal normal 42px Montserrat;
-	letter-spacing: 0px;
-	line-spacing: 52px;
+	font-family: Montserrat;
+	font-size: 42px;
 	color: #3696D6;
-	opacity: 1;
+	margin-bottom: 40px;
 }
 
 #user-info {
-	display: block;
-	margin-top: 40px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	font: normal normal normal 32px Montserrat;
-	letter-spacing: 0px;
-	line-spacing: 60px;
+	font-family: Montserrat;
+	font-size: 32px;
 	color: #3693D6;
-	opacity: 1;
 }
 
 .circle {
@@ -275,40 +251,35 @@ h2 {
 	width: 26px;
 	height: 26px;
 	border-radius: 50%;
-	background: #E2E2E2 0% 0% no-repeat padding-box;
-	opacity: 1;
+	background-color: #E2E2E2;
 }
 
 #ellips1 {
 	margin-left: 50%;
-	background: #9BC0FF 0% 0% no-repeat padding-box;
+	background-color: #9BC0FF;
 }
 
-.card-container {
-	margin-top: 100px;
-	width: 100%;
+section.card-container {
 	height: 754px;
 	vertical-align: middle;
-
 	/* UI properties */
-	background: #3693D6 0% 0% no-repeat padding-box;
-	opacity: 1;
+	background-color: #3693D6;
 }
 
 .arrow {
 	margin-top: 361px;
-	width: 32px;
-	height: 32px;
-	border: solid #FFFFFF;
-	border-width: 0 3px 3px 0;
+	width: 15px;
+	height: 15px;
+	border: 2px solid #FFFFFF;
+	border-width: 0 5px 5px 0;
 	display: inline-block;
-	opacity: 1;
+	
 	padding: 2px;
 }
 
 .left {
-	margin-left: 30px;
-	margin-right: 20px;
+	margin-left: 5px;
+	margin-right: 35px;
 	transform: rotate(135deg);
 	-webkit-transform: rotate(135deg);
 }
@@ -321,74 +292,75 @@ h2 {
 
 .card {
 	display: inline-block;
-	margin-right: 40px;
-	width: 255px;
-	height: 460px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-right: 60px;
+	width: 336px;
+	height: 554px;
 	vertical-align: middle;
 	/*UI properties */
-	background: #FFFFFF 0% 0% no-repeat padding-box;
-	background-attachment: fixed;
+	background-color: #FFFFFF;
 	box-shadow: 0px 3px 10px #00000029;
 	border-radius: 8px;
-	opacity: 1;
 }
 
 .icon {
-	margin: 50px 50px 50px 50px;
-	width: 175px;
+	margin: 77px 80px 55px 80px;
+	width: 177px;
 	height: 135px;
-	opacity: 1;
 
 }
 
 .card-title {
 	text-align: center;
-	font: normal normal bold 30px Lato;
-	letter-spacing: 0px;
+	font-size: 30px;
+	font-family: Lato;
+	font-weight: bold;
 	color: #29313E;
-	opacity: 1;
+	margin-right: 76px;
+	margin-bottom: 27px;
+	margin-left: 76px;
+
 }
 
 .card-text {
-	display: block;
-	margin-top: 10px;
+	/*display: block;*/
 	text-align: center;
-	font: normal normal normal 24px Lato;
-	letter-spacing: 0px;
-	opacity: 1;
+	font-size: 24px;
+	font-family: Lato;
 	vertical-align: middle;
 	color: #29313E;
+	margin-right: 19px;
+	margin-left: 20px;
+	margin-bottom: 44px;
 }
 
 span {
 	color: #0098DA;
 }
 
-.form {
-	margin-top: 100px;
-	margin-left: 30px;
-	/*width: 1280px;*/
-	height:552px;
+section.form {
+	/*margin-left: 30px;*/
+	margin:0 auto;
+	margin-bottom: 100px;
 }
 h3 {
-
 	width: 823px;
+	padding-top: 100px;
 	text-align: left;
-	margin-left: 30px;
+	margin-left: 70px;
 	font: normal normal normal 40px/50px Montserrat;
 	color: #151D41;
 }
 
-.input-user {
-	display: block;
-	/*width: 200%;*/
+form.input-user {
+	height: 630px;
 
 }
 
 .user_ip-left {
-	margin-left: 30px;
+	margin-left: 70px;
 	display: inline-block;
-	/*width: 45%;*/
 }
 
 .user_ip-right {
@@ -396,9 +368,7 @@ h3 {
 	width: 620px;
 	float: right;
 	height: 280px;
-	/*margin-left: 40px;*/
-	margin-right: 30px;
-	
+	margin-left: 40px;
 }
 
 .user_ip-left input[type=text],
@@ -407,94 +377,94 @@ input[type=tel] {
 	width: 550px;
 	height: 55px;
 	margin-top: 50px;
-	background: #FFFFFF 0% 0% no-repeat padding-box;
+	padding-top: 19px;
+	padding-bottom: 19px;
+	padding-left: 31px;
+	background-color: #FFFFFF;
 	border: 1px Solid #151D41;
 	border-radius: 5px;
-	font: normal normal normal 18px/22px Montserrat;
+	font-size:18px/22px;
+	font-family: Montserrat;
 	color: #151D41;
 
 
 }
 
-.user_ip-left input[type=submit] {
+input[type=submit] {
 	width: 280px;
 	height: 65px;
-	background: #3693D6 0% 0% no-repeat padding-box;
+	background-color: #3693D6;
 	border-radius: 40px;
-	font: normal normal normal 25px/30px Montserrat;
-	letter-spacing: 0px;
+	font-size: 25px/30px;
+	font-family: Montserrat;
 	color: #FFFFFF;
-	margin-top: 50px;
-	margin-bottom: 95px;
+	margin-top: 80px;
+	margin-bottom: 100px;
 
 }
 
-.user_ip-right input[type=textarea] {
-
+textarea#msg {
 	width: 530px;
 	height: 266px;
-	background: #FFFFFF 0% 0% no-repeat padding-box;
+	padding-top: 30px;
+	padding-left: 30px;
+	background-color: #FFFFFF;
 	border: 1px solid #151D41;
 	border-radius: 5px;
 	text-align: left;
-	font: normal normal normal 18px/22px Montserrat;
+	font-size: 18px/22px;
+	font-family: Montserrat;
 	color: #151D41;
 	margin-top: 48px;
 
 }
 
 footer {
-	width: 100%;
 	height: 300px;
-	background: #3693D6 0% 0% no-repeat padding-box;
-	opacity: 1;
+	background-color: #3693D6;
 	vertical-align: middle;
 }
 
 .footer-logo {
 	display: inline-block;
-	margin-left: 30px;
-	margin-top: 0px;
+	float: left;
+	margin-top: 135px;
 	width: 122px;
 	height: 58px;
-	background: transparent url('../image/footer-logo.png') 0% 0% no-repeat padding-box;
-	opacity: 1;
 }
 
 .footer-containt {
-	margin-top: 0px;
-	display: inline-block;
-	position: relative;
-	padding-top: 70px;
+	float: left;
+	padding-top: 73px;
 }
 
 h4 {
 	padding-left: 13px;
 	text-align: center;
-	font: normal normal 600 32px/39px Montserrat;
-	letter-spacing: 0px;
+	font-weight: 600;
+	font-size:32px;
+	font-family: Montserrat;
 	color: #FFFFFF;
-	opacity: 1;
-	/*vertical-align: middle;*/
 }
 .flocation{
-	margin-left: 30px;
+	margin-top: 28px;
+	margin-left: 44px;
 	width: 264px;
 	height: 87px;
 	text-align: left;
-	font: normal normal normal 22px/30px Montserrat;
-	letter-spacing: 0px;
-	color: #FFFFFF;
-	opacity: 1;
+	font-size: 22px;
+	font-family: Montserrat;
+	color: #FFFFFF;	
 }
 
 .mail-tel{
 	margin-left: 30px;
+	margin-top: 28px;
 	text-align: left;
-	font: normal normal normal 22px/60px Montserrat;
-	letter-spacing: 0px;
+	font-size: 22px;
+	font-family: Montserrat;
 	color: #FFFFFF;
-	opacity: 1;
+	
 }
 
 #mail {
@@ -510,46 +480,46 @@ h4 {
 .ficon {
 	vertical-align: middle;
 	display: inline-block;
+	width: 370px;
+	height: 40px;
+	margin-top: 120px;
+	margin-left: 40px;
+}
+
+a.ficon {
 	width: 50px;
 	height: 50px;
-}
-
-#fbicon {
-	margin-left: 45px;
-}
-
-#instaicon {
-	margin-left: 45px;
-}
-
-#ytubeicon {
-	margin-left: 45px;
-}
-
-.ficon a {
-	width: 50px;
-	height: 50px;
+	margin-top: 70px;
 }
 
 #fb {
 
-	background: transparent url('../image/fb_icon.png') 0% 0% no-repeat padding-box;
+	background: transparent url('../image/fb_icon.png');
+	background-repeat: no-repeat;
+	background-origin: padding-box;
 	width: 20px;
 	height: 40px;
+	float:left;
+	margin-left: 100px;
 
 }
 
 #insta {
-	background: transparent url('../image/insta_icon.png') 0% 0% no-repeat padding-box;
+	background: transparent url('../image/insta_icon.png');
+	background-repeat: no-repeat;
+	background-origin: padding-box;
 	width: 55px;
 	height: 42px;
-
+	float: left;
+	margin-left: 50px;
 }
 
 #youtube {
-
-	background: transparent url('../image/youtube_icon.png') 0% 0% no-repeat padding-box;
+	background: transparent url('../image/youtube_icon.png');
+	background-repeat: no-repeat;
+	background-origin: padding-box;
 	width: 55px;
 	height: 42px;
-
+	float: left;
+	margin-left: 35px;
 }
