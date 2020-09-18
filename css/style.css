@@ -56,7 +56,7 @@ img {
 	/*border:3px solid red;*/
 
 }
-
+/*ul styling(nav bar) */
 .navigation-bar {
 	padding-top: 35px;
 	display: inline-block;
@@ -349,7 +349,9 @@ h3 {
 	padding-top: 100px;
 	text-align: left;
 	margin-left: 70px;
-	font: normal normal normal 40px/50px Montserrat;
+	font-size: 40px;
+	font-family: Montserrat;
+	font-weight: normal;
 	color: #151D41;
 }
 
@@ -383,7 +385,7 @@ input[type=tel] {
 	background-color: #FFFFFF;
 	border: 1px Solid #151D41;
 	border-radius: 5px;
-	font-size:18px/22px;
+	font-size:18px;
 	font-family: Montserrat;
 	color: #151D41;
 
@@ -395,7 +397,7 @@ input[type=submit] {
 	height: 65px;
 	background-color: #3693D6;
 	border-radius: 40px;
-	font-size: 25px/30px;
+	font-size: 25px;
 	font-family: Montserrat;
 	color: #FFFFFF;
 	margin-top: 80px;
@@ -412,7 +414,7 @@ textarea#msg {
 	border: 1px solid #151D41;
 	border-radius: 5px;
 	text-align: left;
-	font-size: 18px/22px;
+	font-size: 18px;
 	font-family: Montserrat;
 	color: #151D41;
 	margin-top: 48px;
@@ -426,7 +428,7 @@ footer {
 }
 
 .footer-logo {
-	display: inline-block;
+	/*display: inline-block;*/
 	float: left;
 	margin-top: 135px;
 	width: 122px;
@@ -496,7 +498,6 @@ a.ficon {
 
 	background: transparent url('../image/fb_icon.png');
 	background-repeat: no-repeat;
-	background-origin: padding-box;
 	width: 20px;
 	height: 40px;
 	float:left;
@@ -507,7 +508,6 @@ a.ficon {
 #insta {
 	background: transparent url('../image/insta_icon.png');
 	background-repeat: no-repeat;
-	background-origin: padding-box;
 	width: 55px;
 	height: 42px;
 	float: left;
@@ -517,7 +517,6 @@ a.ficon {
 #youtube {
 	background: transparent url('../image/youtube_icon.png');
 	background-repeat: no-repeat;
-	background-origin: padding-box;
 	width: 55px;
 	height: 42px;
 	float: left;
