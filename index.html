@@ -3,26 +3,27 @@
 
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="css/reset.css">
+	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
+	<title>Mountain</title>
 </head>
 
 <body>
 		<div class="hero_image">
+			<header>
+				<a href="#"><img id="logo" src="image/logo.png" alt="logo"></a>
+				<div class="right-header">
+					<ul class="navigation-bar">
+						<li><a href="#home">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#fcontact">Contact</a></li>
+						<li><a href="#form" id="hello-button">Say Hello</a></li>
+					</ul>
+				</div>	
+			</header>
 			<div class="wrapper">
-				<header>
-					<a href="#"><img id="logo" src="image/logo.png" alt="logo"></a>
-					<div class="left-header">
-						<ul class="navigation-bar">
-							<li><a href="#home">Home</a></li>
-							<li><a href="#about">About</a></li>
-							<li><a href="#fcontact">Contact</a></li>
-							<li><a href="#form" id="hello-button">Say Hello</a></li>
-						</ul>
-					</div>	
-				</header>
 				<div class="work">
-				<a href="#work-head" id="work-button">Our Work</a>	
+					<a href="#work-head" id="work-button">Our Work</a>	
 				</div>
 			</div>
 		</div>
@@ -105,45 +106,42 @@
 						<input type="text" id="name" value="Name"><br>
 						<input type="tel" id="phone" value="Phone#"><br>
 						<input type="email" id="email" value="Email"><br>
-						<input type="submit" value="Send Message" class="submit">
-	
 					</div>
 					<div class="user_ip-right">
 						<textarea id="msg" rows="10" cols="20">Message</textarea>
 					</div>
+					<input type="submit" value="Send Message" class="submit">
 				</form>
 
 			</div>
 		</section>
 		<footer id="fcontact">
-			<div class="wrapper">
-				<div class="footer-logo">
-					<a href="#"><img src="image/footer-logo.png" alt="footer-logo"></a>
-				</div>
-				<div class="footer-containt">
-					<h4>Location</h4>
-					<p class="flocation">Fusce at nisi eget dolor rhoncus facilisis. Mauris ante nisl - GD 1506</p>
-				</div>
-				<div class="footer-containt">
-					<h4>Email</h4>
-					<p class="mail-tel">jessica.lee@mail.com</p>
-				</div>
-				<div class="footer-containt">
-					<h4>Phone</h4>
-					<p class="mail-tel">(859)749-1380</p>
-				</div>
-				<div class="ficon" id="sicon">
-					<a href="https://www.facebook.com/">
-						<div id="fb"></div>
-					</a>
-					<a href="https://www.instagram.com/accounts/login/?hl=en">
-						<div id="insta"></div>
-					</a>
-					<a href="https://www.youtube.com/">
-						<div id="youtube"></div>
-					</a>
-				</div>
-
+			<div class="footer-logo">
+				<a href="#"><img src="image/footer-logo.png" alt="footer-logo"></a>
+			</div>
+			<div class="footer-containt">
+				<h4>Location</h4>
+				<p class="flocation">Fusce at nisi eget dolor rhoncus facilisis. Mauris ante nisl - GD 1506</p>
+			</div>
+			<div class="footer-containt">
+				<h4>Email</h4>
+				<p class="mail-tel">jessica.lee@mail.com</p>
+			</div>
+			<div class="footer-containt">
+				<h4>Phone</h4>
+				<p class="mail-tel">(859)749-1380</p>
+			</div>
+			<div class="ficon">
+				<a href="https://www.facebook.com/" id="fb">
+				</a>
+			</div>
+			<div class="ficon">
+				<a href="https://www.instagram.com/accounts/login/?hl=en" id="insta">
+				</a>
+			</div>
+			<div class="ficon">
+				<a href="https://www.youtube.com/" id="youtube">
+				</a>
 			</div>
 		</footer>
 </body>
