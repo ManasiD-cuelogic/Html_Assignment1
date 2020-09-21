@@ -18,7 +18,7 @@ body {
 .wrapper {
 	max-width: 1280px;
 	margin: 0 auto;
-	padding: 0 auto;
+	padding: 0;
 }
 
 /*set a background image for header */
@@ -32,12 +32,13 @@ body {
 }
 /*header styling */
 header {
-	top: 20px;
+	padding-top: 20px;
 	height: 136px;
 	
 }
 #logo {
 	margin-top: 20px;
+	margin-left: 80px;
 	width: 124px;
 	height: 96px;
 	
@@ -47,38 +48,28 @@ img {
 	object-fit: cover;
 }
 
-.left-header {
-	/*display: inline-block;*/
+.right-header {
 	float: right;
-	width: 719px;
-	height: 118px;
-	padding: 10px;
-	/*border:3px solid red;*/
+	margin-right: 80px;
 
 }
 /*ul styling(nav bar) */
 .navigation-bar {
 	padding-top: 35px;
-	display: inline-block;
+	/*display: inline-block;
 	vertical-align: top;
 	list-style-type: none;
-	width: 655px;
+	width: 655px;*/
 }
 
 li {
 	display: inline-block;
-	list-style-type: none;
 	padding-left: 27px;
-	padding-right: 27px;
-	height: 68px;
-
 }
 
 li a {
 	display: inline-block;
 	text-decoration: none;
-	text-align: center;
-	letter-spacing: 0px;
 	color: #FFFFFF;
 	font-family: Montserrat;
 	font-size: 22px;
@@ -86,12 +77,10 @@ li a {
 }
 
 #hello-button {
-	width: 204px;
 	height: 54px;
 	background-color: #FFFFFF;
 	border: 2px solid #FFFFFF;
 	border-radius: 34px;
-	text-align: center;
 	text-decoration: none;
 	color: #3693D6;
 	font-family: montserrat;
@@ -101,20 +90,17 @@ li a {
 
 /* styling for Our Work button */
 div.work{
-	float: right;
-	margin-top: 400px;
-	margin-right: 60px;
-	margin-bottom: 81px;
+	position: absolute;
+	top: 527px;
+	right: 80px;
+	bottom: 62px;
 }
 #work-button {
-	width: 240px;
 	height: 68px;
 	padding: 19px 57px 19px 57px;
-	margin-top: 450px;
 	background-color: #3693D6;
 	border: 2px solid #3693D6;
 	border-radius: 34px;
-	text-align: center;
 	text-decoration: none;
 	color: #FFFFFF;
 	font-family: montserrat;
@@ -124,8 +110,8 @@ div.work{
 
 /* styling for About me box */
 section.about-me {
-	top: 657px;
-	height: 563px;
+	padding-top: 100px;
+	padding-bottom: 120px;
 	background-color: #3693D6;
 }
 
@@ -133,16 +119,11 @@ h1 {
 	text-align: center;
 	font-family: montserrat;
 	font-size: 52px;
-	letter-spacing: 0px;
 	color: #FFFFFF;
-	padding-top: 100px;
 }
 
 .about-content {
-	/*position: relative;*/
-	width: 1268px;
-	height: 232px;
-	padding: 48px 19px 120px 19px;
+	padding-top: 48px;
 	font-family: montserrat;
 	font-size: 42px;
 	color: #FFFFFF;
@@ -156,18 +137,16 @@ p {
 /* style for our work */
 section.our-work {
 	/* UI property */
+	margin-top: 100px;
 	text-align: center;
 	background-color: #FFFFFF;
 	
 }
 
 h2#work-head {
-	margin-top: 100px;
 	margin-right:auto;
 	margin-left: auto;
 	margin-bottom: 100px;
-	width: 260px;
-	height: 63px;
 }
 
 h2 {
@@ -176,41 +155,38 @@ h2 {
 	font-size: 52px;
 	font-family: Montserrat;
 	color: #3693D6;
-	letter-spacing: 0px;
 	
 }
 
 .gallery {
 	width: 100%;
-	vertical-align: middle;
-	margin: auto;
-	padding: 0.1rem;
 	background-color: #FFFFFF;
 }
 
 .gallery_img {
 	display: inline-block;
-	width: 418px;
+	width: 421px;
 	height: 392px;
-	object-fit: cover;
+	padding-right: 13px;
+	padding-bottom: 12px;
 }
 
 .gallery_img2 {
 	display: inline-block;
-	width: 838px;
-	height: 400px;
-	object-fit: cover;
+	width: 849px;
+	height: 392px;
+	padding-right: 13px;
+	padding-bottom: 12px;
 }
 section.user-info{
 	margin-top: 100px;
 	margin-bottom: 138px;
+	
 }
 .user {
-	vertical-align: middle;
 	margin-left: 200px;
 	margin-right: 200px;
-	width: 812px;
-	height: 821px;
+	clear: both;
 }
 
 #user-heding {
@@ -246,7 +222,7 @@ section.user-info{
 }
 
 .circle {
-	display: inline-block;
+	float: left;
 	margin-top: 51px;
 	width: 26px;
 	height: 26px;
@@ -260,40 +236,32 @@ section.user-info{
 }
 
 section.card-container {
-	height: 754px;
-	vertical-align: middle;
-	/* UI properties */
 	background-color: #3693D6;
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 
 .arrow {
-	margin-top: 361px;
 	width: 15px;
 	height: 15px;
 	border: 2px solid #FFFFFF;
 	border-width: 0 5px 5px 0;
 	display: inline-block;
-	
-	padding: 2px;
 }
 
 .left {
-	margin-left: 5px;
-	margin-right: 35px;
+	margin-right: 45px;
 	transform: rotate(135deg);
 	-webkit-transform: rotate(135deg);
 }
 
 .right {
-	margin: auto;
 	transform: rotate(-45deg);
 	-webkit-transform: rotate(-45deg);
 }
 
 .card {
 	display: inline-block;
-	margin-top: 100px;
-	margin-bottom: 100px;
 	margin-right: 60px;
 	width: 336px;
 	height: 554px;
@@ -317,14 +285,10 @@ section.card-container {
 	font-family: Lato;
 	font-weight: bold;
 	color: #29313E;
-	margin-right: 76px;
 	margin-bottom: 27px;
-	margin-left: 76px;
-
 }
 
 .card-text {
-	/*display: block;*/
 	text-align: center;
 	font-size: 24px;
 	font-family: Lato;
@@ -341,42 +305,32 @@ span {
 
 section.form {
 	/*margin-left: 30px;*/
-	margin:0 auto;
+	padding-top: 100px;
 	margin-bottom: 100px;
+	clear: both;
 }
 h3 {
-	width: 823px;
-	padding-top: 100px;
-	text-align: left;
-	margin-left: 70px;
 	font-size: 40px;
 	font-family: Montserrat;
 	font-weight: normal;
 	color: #151D41;
 }
 
-form.input-user {
-	height: 630px;
-
-}
 
 .user_ip-left {
-	margin-left: 70px;
-	display: inline-block;
+	float: left;
+	width: 50%;
 }
 
 .user_ip-right {
-	display: inline-block;
-	width: 620px;
-	float: right;
-	height: 280px;
-	margin-left: 40px;
+	width:50%;
+	float: left;
 }
 
 .user_ip-left input[type=text],
 input[type=email],
 input[type=tel] {
-	width: 550px;
+	width: 620px;
 	height: 55px;
 	margin-top: 50px;
 	padding-top: 19px;
@@ -395,18 +349,17 @@ input[type=tel] {
 input[type=submit] {
 	width: 280px;
 	height: 65px;
+	margin-top: 80px;
+	margin-right: 980px;
 	background-color: #3693D6;
 	border-radius: 40px;
 	font-size: 25px;
 	font-family: Montserrat;
 	color: #FFFFFF;
-	margin-top: 80px;
-	margin-bottom: 100px;
-
 }
 
 textarea#msg {
-	width: 530px;
+	width: 620px;
 	height: 266px;
 	padding-top: 30px;
 	padding-left: 30px;
@@ -424,25 +377,25 @@ textarea#msg {
 footer {
 	height: 300px;
 	background-color: #3693D6;
-	vertical-align: middle;
+	clear: both;
 }
 
 .footer-logo {
-	/*display: inline-block;*/
 	float: left;
 	margin-top: 135px;
 	width: 122px;
 	height: 58px;
+	margin-top: 135px;
+	margin-left:80px;
 }
 
 .footer-containt {
 	float: left;
-	padding-top: 73px;
+	margin-top: 73px;
+	margin-left: 50px;
 }
 
 h4 {
-	padding-left: 13px;
-	text-align: center;
 	font-weight: 600;
 	font-size:32px;
 	font-family: Montserrat;
@@ -450,9 +403,7 @@ h4 {
 }
 .flocation{
 	margin-top: 28px;
-	margin-left: 44px;
 	width: 264px;
-	height: 87px;
 	text-align: left;
 	font-size: 22px;
 	font-family: Montserrat;
@@ -460,7 +411,6 @@ h4 {
 }
 
 .mail-tel{
-	margin-left: 30px;
 	margin-top: 28px;
 	text-align: left;
 	font-size: 22px;
@@ -469,30 +419,13 @@ h4 {
 	
 }
 
-#mail {
-	width: 234px;
-	height: 51px;
-}
-
-#tel {
-	width: 151px;
-	height: 27px;
-}
 
 .ficon {
-	vertical-align: middle;
-	display: inline-block;
-	width: 370px;
-	height: 40px;
+	float: left;
 	margin-top: 120px;
-	margin-left: 40px;
+	margin-left:49px;
 }
 
-a.ficon {
-	width: 50px;
-	height: 50px;
-	margin-top: 70px;
-}
 
 #fb {
 
@@ -501,7 +434,6 @@ a.ficon {
 	width: 20px;
 	height: 40px;
 	float:left;
-	margin-left: 100px;
 
 }
 
@@ -511,7 +443,6 @@ a.ficon {
 	width: 55px;
 	height: 42px;
 	float: left;
-	margin-left: 50px;
 }
 
 #youtube {
@@ -520,5 +451,5 @@ a.ficon {
 	width: 55px;
 	height: 42px;
 	float: left;
-	margin-left: 35px;
+	margin-right: 80px;
 }
