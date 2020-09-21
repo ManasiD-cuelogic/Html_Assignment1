@@ -220,18 +220,20 @@ section.user-info{
 	font-size: 32px;
 	color: #3693D6;
 }
-
-.circle {
-	float: left;
+.circle{
+	text-align: center;
+}
+.dot{
+	display: inline-block;
 	margin-top: 51px;
 	width: 26px;
 	height: 26px;
 	border-radius: 50%;
 	background-color: #E2E2E2;
+	margin-right: 13px;
 }
 
 #ellips1 {
-	margin-left: 50%;
 	background-color: #9BC0FF;
 }
 
